@@ -1,0 +1,106 @@
+.chart-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.chart-card {
+  width: 900px;
+  max-width: 95%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.chart-avatar {
+  font-size: 24px;
+  background-color: #2196f3;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.card-content-row {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  padding: 16px;
+}
+
+.left-content {
+  flex: 2;
+}
+
+.right-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-radius: 4px;
+  border-left: 1px solid #e0e0e0;
+  width: 50%;
+}
+
+.chart-container {
+  width: 100%;
+  height: 400px;
+}
+
+mat-grid-tile {
+  background: #fbb117;
+}
+.icon-label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.icon-label .number {
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 1.2;
+}
+
+.icon-label .label {
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 1.2;
+}
+
+.chart-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.header-content {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 16px;
+}
+
+.dropdown-group {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.dropdown {
+  height: 50px;
+}
+
+.cut-corner-bottom-left {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%, 0 50%);
+  display: flex;
+  align-items: center;
+}
